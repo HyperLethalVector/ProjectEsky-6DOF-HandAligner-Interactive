@@ -1,0 +1,6 @@
+[submodule "northstarv2unityintegration"]
+	path = northstarv2unityintegration
+	url = git@gitlab.com:hyperlethalvector92/northstarv2unityintegration.git
+[submodule "Assets/NSIntegration"]
+	path = Assets/NSIntegration
+	url = git@gitlab.com:hyperlethalvector92/northstarv2unityintegration.git
