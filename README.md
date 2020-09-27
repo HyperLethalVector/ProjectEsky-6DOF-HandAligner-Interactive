@@ -11,7 +11,7 @@ Then Scenes/6DOFHandCalibration.unity for the ZED camera calibration
 
 Calibration is easy and straightforward
 
-1 (LM)) hold your Right hand in front of the display, a white virtual hand should appear
+1) (LM)) hold your Right hand in front of the display, a white virtual hand should appear
 
 2) Hold space, this will freeze the virtual hand
 
@@ -25,6 +25,6 @@ Calibration is easy and straightforward
 
 7) If it does work, just hit the 's' button
 
-8 (6DOF) ) Same story for steps 1-7, except you're using the video texture displayed on the unity screen for alignment.
+8) (6DOF)  Same story for steps 1-7, except you're using the video texture displayed on the unity screen for alignment.
 
 
