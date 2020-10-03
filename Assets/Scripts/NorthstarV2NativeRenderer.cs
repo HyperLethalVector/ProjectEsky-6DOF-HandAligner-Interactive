@@ -79,7 +79,9 @@ public class NorthstarV2NativeRenderer : MonoBehaviour
             RightCamera.transform.localPosition=new Vector3((calibration.baseline/2.0f),0,0);
             if(requiresRotation){
                 LeftCamera.transform.Rotate(new Vector3(0,0,90),Space.Self);
+                LeftCamera.fieldOfView = 70 * (WindowWidth/WindowHeight) / ((float)LeftCamera.pixelWidth / LeftCamera.pixelHeight);
                 RightCamera.transform.Rotate(new Vector3(0,0,90),Space.Self);        
+                RightCamera.fieldOfView = 70 * (WindowWidth/WindowHeight) / ((float)LeftCamera.pixelWidth / LeftCamera.pixelHeight);                
             }
             updateOffsets = true;
             RegisterDebugCallback(OnDebugCallback);    
